@@ -5,6 +5,9 @@
     </head>
     <body>
         <div id='ruffle'></div>
+        <p>to change swf just delete the ruffle div in the inspect tab, then go to console and paste the code below, changing the "FILE" to the filename of the swf you want.</p>
+        <br>
+        <tt>swfobject.embedSWF('./src/BETTERTRETRIS.swf', 'ruffle', 500, 500);</tt>
         <script src='./ruffle.js'></script>
         <script>
 var swfobject = {};
